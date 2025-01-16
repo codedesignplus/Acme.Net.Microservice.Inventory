@@ -5,8 +5,8 @@
 echo "Start Sonarscanner -------------------------------------------------------------------------------------------------------------------------------"
 
 org=codedesignplus
-key=Acme.Net.Microservice.Inventory
-csproj=Acme.Net.Microservice.Inventory.sln
+key=CodeDesignPlus.Net.Microservice
+csproj=CodeDesignPlus.Net.Microservice.sln
 report=tests/**/coverage.opencover.xml
 server=http://localhost:9000
 token="sqa_12f3d20d51de2b4c9639db0035d1c68dc4f2fff1"
