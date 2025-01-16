@@ -123,7 +123,7 @@ vault write e-comerce-acme-rabbitmq/config/connection `
     username="admin" `
     password="password"
 
-vault write e-comerce-acme-rabbitmq/roles/ms-e-comerce-acme-rabbitmq-role `
+vault write e-comerce-acme-rabbitmq/roles/ms-inventory-rabbitmq-role `
     vhosts="{\""/\"":{\""write\"": \"".*\"", \""read\"": \"".*\"", \""configure\"": \"".*\""}}"
 
-vault read e-comerce-acme-rabbitmq/creds/ms-e-comerce-acme-rabbitmq-role
+vault read e-comerce-acme-rabbitmq/creds/ms-inventory-rabbitmq-role
