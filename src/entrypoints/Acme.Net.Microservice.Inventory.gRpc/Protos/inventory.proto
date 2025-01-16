@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+
+option csharp_namespace = "Acme.Net.Microservice.Inventory.gRpc";
+
+package Inventory;
+
+
+service Inventory {
+  rpc GetInventory (stream GetInventoryRequest) returns (stream GetInventoryResponse);
+}
+
+message GetInventoryRequest {
+  string Id = 1;
+}
+
+message GetInventoryResponse {
+
+}

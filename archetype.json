@@ -1,0 +1,6 @@
+{
+  "microservice": "Inventory",
+  "description": "Custom Microservice",
+  "version": "1.0.0",
+  "organization": "Acme"
+}
